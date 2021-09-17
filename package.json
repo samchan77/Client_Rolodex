@@ -1,0 +1,26 @@
+{
+    "name": "client-rolodex",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "webpack": "webpack",
+      "start": "webpack --watch & http-server",
+      "prestart": "npm run webpack"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/core": "^7.14.3",
+      "@babel/preset-env": "^7.14.2",
+      "babel-loader": "^8.2.2",
+      "webpack": "^5.38.1",
+      "webpack-cli": "^4.7.0",
+      "webpack-pwa-manifest": "^4.3.0"
+    },
+    "dependencies": {
+      "axios": "^0.21.1"
+    }
+  }
+  
